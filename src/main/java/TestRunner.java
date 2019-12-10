@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
  * Запуск тестов - maven - фазы clean test
  * После выполнения тестов можно открыть отчет Allure
  * для этого во вкладке Maven - Plugins - выполнить allure:serve
+ * Возможно, необходимо будет установить плагин для Lombok
  */
 
 
