@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier of user",
+      "type": "string"
+    },
+    "email": {
+      "description": "User email",
+      "type": "string"
+    },
+    "enabled": {
+      "description": "User enabled",
+      "type": "boolean"
+    },
+    "emailVerified": {
+      "description": "Verified of user email",
+      "type": "boolean"
+    },
+    "createdAt": {
+      "description": "Date of user creation",
+      "type": "string"
+    },
+    "lastLogin": {
+      "description": "Date of last login by user",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "email",
+    "enabled",
+    "emailVerified",
+    "createdAt",
+    "lastLogin"
+  ]
+}

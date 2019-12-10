@@ -1,0 +1,15 @@
+# не обрабатывать файлы, имя которых заканчивается на .~ и .iml
+*.~
+*.iml
+
+# игнорировать все файлы в каталоге TestReport/
+TestReport/
+target/
+.idea/
+surefire/
+.allure/
+
+# игнорировать каталоги .idea
+/.idea
+/allure-results
+/build
