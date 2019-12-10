@@ -3,6 +3,20 @@ import io.qameta.allure.Feature;
 import org.aeonbits.owner.ConfigFactory;
 import org.testng.annotations.Test;
 
+/*
+* Обнаружены следующие несоответствия к заданию.
+* 1. Токен, согласно заданию должен содержать email
+* пользователя (по факту не содержит)
+* 2. Поле Id ответа согласно заданию должно быть типа int (в ответе
+* приходит String)
+* */
+
+/**
+ * Запуск тестов - maven - фазы clean test
+ * После выполнения тестов можно открыть отчет Allure
+ * для этого во вкладке Maven - Plugins - выполнить allure:serve
+ */
+
 
 @Feature(value = "Sprinkle Tests")
 public class TestRunner {
